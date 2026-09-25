@@ -1,0 +1,5 @@
+round,frame_id,object,action,rule_or_reason
+1,frame_0182.jpg,cụm xe xa phía chân trời chỉ còn hai chấm đèn,accepted,Theo GUIDELINE_LABEL.md: xe xa chỉ còn đèn vẫn được gán khi đoán được đường viền thân quanh cụm đèn; box cao dưới ~16 px bị bỏ qua khi chấm nên không xóa hàng loạt
+1,frame_0331.jpg,xe lớn phía trước có đèn pha rõ thân,accepted,Thân xe nhìn rõ: giữ box ôm sát thân kể cả gương/đèn; không khoanh vệt sáng đèn pha chiếu xuống mặt đường
+1,frame_0099.jpg,xe bị cắt ở mép phải khung hình,accepted,Xe bị cắt mép ảnh: chỉ giữ box cho phần nằm trong ảnh; không bịa phần ngoài khung
+1,frame_0380.jpg,ánh đèn phản chiếu trên mặt đường / đèn đường,accepted,Không thêm box cho phản chiếu và đèn đường theo guideline; các box sẵn có bám thân xe chứ không khoanh vệt sáng mặt đường
